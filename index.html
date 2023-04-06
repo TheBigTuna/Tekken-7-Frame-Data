@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Tekken 7 Frame Data</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="style/jquery-3.2.1.min.js"></script>
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <link href="style/bootstrap.css" rel="stylesheet">
+    <script src="style/bootstrap.js"></script>
+    <link href="style/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">     
+    <script src="scripts/regular.js"></script>
+    <script src="scripts/main.js"></script>
+   
+    </head>
+    <body onload="sourceJs.load();">
+        <div id="loading">
+              <img id="load-img" src="gifs/ajax-loader.gif" alt="Loading..." />
+        </div>
+        <div id="home">
+        <div id ="video-container">
+     <video width="100%" height="100%" autoplay loop muted>
+        <source ng-src="video/T7-bgVideo.mp4" 
+        src="video/T7-bgVideo.mp4">
+        </video>
+          <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+          <img class="logoImg" src="images/Tekken7-console-logo.png" height="120px" width="320px">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase headerTitle"> Frame Data</h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <h5 class="text-faded mb-5 headerText">The Best Fights Are Personal</h5>
+            <a href="frames.html"><button class="btn btn-xl js-scroll-trigger rounded" id="headerBtn">View Now</button></a>
+            <!-- <button class="btn btn-xl js-scroll-trigger rounded" id="headerBtn" onClick="sourceJs.homeClick()">View Now</button> -->
+          </div>
+        </div>
+      </div>
+    </header>
+        </div>
+        </div>
+    </body>
+</html>
